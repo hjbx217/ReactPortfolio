@@ -1,0 +1,125 @@
+<!-- Portfolio-->
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>Portfolio</title>
+
+  <!-- Reference Links -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Open+Sans+Condensed:300&display=swap" rel="stylesheet" type="text/css">
+  <link rel="contact.html" href="./contact.html">
+  <link rel="index.html" href="./index.html">
+  <link rel="portfolio.css" href="./portfolio.css">
+  
+</head>
+
+<!--style tags-->
+<style>
+    h1{
+        font-size:300;
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-style: bold;
+        position: center;
+    }
+    h3 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        position: relative;
+    }
+        
+</style>
+
+<body>
+      <!--Navigation Bar, when screen is minimized, couldn't get the menu bar to work-->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <span class="navbar-brand mb-1 h1">Navbar</span>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+          </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!--Links to different things about me. i.e. Alma Mater, LinkedIn, etc.-->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <h1>Portfolio</h1>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-lg-4">
+                <h2><a href="https://www.linkedin.com/in/haejinbae/">
+                    <img class="img img-thumbnail" alt="LinkedIn" src="data:image/png;base64,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" width="200" height="200">
+                    </a>
+                </h2>
+                <h3>LinkedIn</h3>
+            </div>
+            <br>
+            <div class="col-lg-4">
+                <h2><a href="https://www1.lehigh.edu/">
+                    <img class="img img-thumbnail" alt="LinkedIn" src="./lehigh.png" width="200" height="200">
+                    </a>
+                </h2>
+                <h3>Alma Mater</h3>
+            </div>
+            <br>
+            <div class="col-lg-4">
+                <h2><a href="./Resume.png" download="Resume">
+                    <img class="img img-thumbnail" alt="resume" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTGTpCGh4Un0tW0Z47glnKKEdOOGCfB9PSraxaZGnPW5cDCqTbM" width="200" height="200">
+                  </a>
+                </h2>
+                <h3>Resume</h3>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-lg-6">
+              <h1>Projects</h1>
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-lg-4">
+                <h2><a href="https://mariacasby1.github.io/group6/">
+                    <img class="img img-thumbnail" alt="MealCorner" src="./MealCornerIcon.png" width="200" height="200">
+                    </a>
+                </h2>
+                <h3>MealCorner</h3>
+          </div>
+          <div class="col-lg-4">
+            <h2><a href="https://hjbx217.github.io/Homework6_Weather_Dashboard/index.html">
+                <img class="img img-thumbnail" alt="MealCorner" src="data:image/png;base64,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" width="200" height="200">
+                </a>
+            </h2>
+            <h3>Weather Dashboard</h3>
+          </div>
+          <div class="col-lg-4">
+            <h2><a href="https://trace-me-app.herokuapp.com/">
+                <img class="img img-thumbnail" alt="TraceMe" src="./logo.png" width="200" height="200">
+                </a>
+            </h2>
+            <h3>TraceMe Application</h3>
+          </div>
+
+        </div>
+    </div>
+
+    </div>
+            
+</body>
