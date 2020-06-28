@@ -8,6 +8,8 @@ function AboutPage(props) {
         <div>
             <Hero title={props.title} />
 
+            
+
             {/* <Content>
             <p>Hello, my name is Haejin. I'm a full stack engineer with experience in AngularJS,  Node JS,  MongoDB, and React.</p>
 
