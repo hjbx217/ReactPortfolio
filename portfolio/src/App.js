@@ -21,12 +21,12 @@ class App extends React.Component {
       title: 'HJB',
       headerLinks: [
         { title: 'Home', path: '/' },
-        { title: 'About', path: '/about' },
-        { title: 'Contact', path: '/contact' }
+        { title: 'About', path: '/AboutPage' },
+        { title: 'Contact', path: '/ContactPage' }
       ],
       home: {
-        title: 'Be Unique',
-        subTitle: 'Projects the make a difference',
+        title: 'PROJECTS',
+        // subTitle: 'Projects the make a difference',
         text: 'Checkout my projects below'
       },
       about: {
@@ -37,6 +37,9 @@ class App extends React.Component {
       }
     }
   }
+
+  
+  
 
   render() {
     return (
